@@ -1,0 +1,5 @@
+.venv
+data/imagens_processadas
+data/images/*
+__pycache__/
+*.pyc
