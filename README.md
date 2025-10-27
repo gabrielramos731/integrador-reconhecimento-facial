@@ -20,7 +20,14 @@ integrador/
 ## Uso
 
 ```bash
+# Criar ambiente virtual
+python3 -m venv .venv
 source .venv/bin/activate
+
+# Instalar dependências
+pip install -r requirements.txt
+
+# Executar processamento
 python main.py
 ```
 
@@ -32,9 +39,3 @@ python main.py
 ## Formatos Suportados
 
 JPEG, PNG, HEIC
-
-## Dependências
-
-```bash
-pip install opencv-python mtcnn tensorflow pillow-heif pillow
-```

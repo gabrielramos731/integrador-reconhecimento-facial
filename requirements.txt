@@ -1,0 +1,5 @@
+opencv-python>=4.8.0
+mtcnn>=0.1.1
+tensorflow>=2.13.0
+pillow>=10.0.0
+pillow-heif>=0.13.0
